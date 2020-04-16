@@ -11,7 +11,7 @@ namespace ConsoleApplication1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Ingresar cantidad de Instancias and press Enter");
+            Console.WriteLine("Ingresar cantidad de Instancias y presionar Enter");
             var num = Convert.ToUInt16(Console.ReadLine());
             for (var i = 0; i < num; i++)
             {
